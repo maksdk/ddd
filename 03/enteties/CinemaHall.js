@@ -8,6 +8,10 @@ export default class CinemaHall {
       this.cols = cols;
       this.filmScreenings = [];
       this.id = uuid.create();
-      this.createdAt = Date();
+      this.createdAt = new Date();
+   }
+
+   addFilmScreening(filmScreening) {
+      this.filmScreenings.push(filmScreening);
    }
 }

@@ -6,6 +6,6 @@ export default class Film {
       this.filmName = name;
       this.duration = duration;
       this.id = uuid.create();
-      this.createdAt = Date();
+      this.createdAt = new Date();
    }
 }
