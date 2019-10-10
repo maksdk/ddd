@@ -30,12 +30,12 @@ If the bug is browser specific, please enter the version **below** this comment:
 
 
 ## Description
-
-<!--
 I am using ScaleManager's  `this.scale.startFullscreen()`  function and it works ok in all browsers exept Edge. In Ege when I try to call the method I get an error in the console :  `Unable to get property 'then' of undefined or null reference`.
 
 Image of error: 
 ![issue_phaser](https://user-images.githubusercontent.com/33781214/66545214-e55da800-eb42-11e9-8006-ac6584bc2ec0.png)
+<!--
+
 -->
 
 
