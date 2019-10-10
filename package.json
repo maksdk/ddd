@@ -10,5 +10,7 @@
     "@babel/preset-env": "^7.6.2",
     "jest": "^24.9.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "uuid-js": "^0.7.5"
+  }
 }
