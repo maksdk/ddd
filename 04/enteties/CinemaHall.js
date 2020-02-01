@@ -1,8 +1,8 @@
 //@ts-check
 import uuid from "uuid-js";
-import AppEntity from "./AppEntity";
+import ApplicationEntety from "./ApplicationEntety";
 
-export default class CinemaHall extends AppEntity {
+export default class CinemaHall extends ApplicationEntety {
    constructor(name, rows, cols) {
       super();
       

@@ -1,8 +1,8 @@
 //@ts-check
 import uuid from "uuid-js";
-import AppEntity from "./AppEntity";
+import ApplicationEntety from "./ApplicationEntety";
 
-export default class Film extends AppEntity{
+export default class Film extends ApplicationEntety{
    constructor(name, duration) {
       super();
 
